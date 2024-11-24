@@ -180,7 +180,7 @@ class DealSection extends StatelessWidget {
           ClipRRect(
             borderRadius: BorderRadius.circular(10),
             child: Image.asset(
-              "assets/images/haya.jpg",
+              "assets/images/1.jpg",
               width: 100,
               height: 200,
               fit: BoxFit.fitHeight,
@@ -285,28 +285,28 @@ class FreelancerCard extends StatelessWidget {
 class FreelancerList extends StatelessWidget {
   final List<Map<String, dynamic>> freelancers = [
     {
-      "name": "BrlTzy",
-      "profession": "Asassin",
+      "name": "ayam",
+      "profession": "goreng",
       "rating": 4.9,
-      "image": "assets/images/haya.jpg"
+      "image": "assets/images/1.jpg"
     },
     {
-      "name": "BrlTzy",
-      "profession": "Asassin",
+      "name": "ayam",
+      "profession": "goreng",
       "rating": 4.9,
-      "image": "assets/images/haya.jpg"
+      "image": "assets/images/1.jpg"
     },
     {
-      "name": "BarlTzy",
-      "profession": "Asassin",
+      "name": "ayam",
+      "profession": "goreng",
       "rating": 4.9,
-      "image": "assets/images/haya.jpg"
+      "image": "assets/images/1.jpg"
     },
     {
       "name": "Wade Warren",
       "profession": "Beautician",
       "rating": 4.9,
-      "image": "assets/images/haya.jpg"
+      "image": "assets/images/1.jpg"
     },
   ];
 
@@ -343,21 +343,21 @@ class ServiceList extends StatelessWidget {
       children: [
         const SizedBox(height: 10, ),
         ServiceCard(
-          imageUrl: 'assets/images/haya.jpg',
+          imageUrl: 'assets/images/1.jpg',
           name: 'Miss Zachary Will',
           role: 'Beautician',
           description: 'Doloribus saepe aut necessitatibus qui.',
           rating: 4.9,
         ),
         ServiceCard(
-          imageUrl: 'assets/images/haya.jpg',
+          imageUrl: 'assets/images/1.jpg',
           name: 'Miss Zachary Will',
           role: 'Beautician',
           description: 'Doloribus saepe aut necessitatibus qui.',
           rating: 4.9,
         ),
         ServiceCard(
-          imageUrl: 'assets/images/haya.jpg',
+          imageUrl: 'assets/images/1.jpg',
           name: 'Miss Zachary Will',
           role: 'Beautician',
           description: 'Doloribus saepe aut necessitatibus qui.',
@@ -543,7 +543,7 @@ class BestBooking extends StatelessWidget {
           ClipRRect(
             borderRadius: BorderRadius.circular(10),
             child: Image.asset(
-              "assets/images/haya.jpg",
+              "assets/images/1.jpg",
               width: 100,
               height: 200,
               fit: BoxFit.fitHeight,
@@ -563,8 +563,8 @@ class BestBooking2 extends StatelessWidget {
     return Column(
         children: [
           BestBookingCard(
-            imageUrl: 'assets/images/haya.jpg',
-            profileUrl: 'assets/images/haya.jpg',
+            imageUrl: 'assets/images/1.jpg',
+            profileUrl: 'assets/images/1.jpg',
             name: 'Miss Zachary Will',
             role: 'Beautician',
             description: 'Occaecati aut nam beatae quo non deserunt consequatur.',
@@ -572,8 +572,8 @@ class BestBooking2 extends StatelessWidget {
           ),
           SizedBox(height: 16.0),
           BestBookingCard(
-            imageUrl: 'assets/images/haya.jpg',
-            profileUrl: 'assets/images/haya.jpg',
+            imageUrl: 'assets/images/1.jpg',
+            profileUrl: 'assets/images/1.jpg',
             name: 'Miss Zachary Will',
             role: 'Beautician',
             description: 'Occaecati aut nam beatae quo non deserunt consequatur.',
@@ -735,7 +735,7 @@ class RecommendedWorkshopsPage extends StatelessWidget {
                   topRight: Radius.circular(12),
                 ),
                 child: Image.asset(
-                  'assets/images/haya.jpg', // Ganti dengan path gambar Anda
+                  'assets/images/1.jpg', // Ganti dengan path gambar Anda
                   height: 230,
                   width: double.infinity,
                   fit: BoxFit.cover,
@@ -831,19 +831,19 @@ class _SatuState extends State<Satu> {
   // Daftar item di keranjang
   List<CartItem> cartItems = [
     CartItem(
-        gambar: "assets/images/haya.jpg",
+        gambar: "assets/images/1.jpg",
         judul: "halo",
         deskripsi: "auto ta putar",
         harga: 40,
         jumlah: 0),
     CartItem(
-        gambar: "assets/images/haya.jpg",
+        gambar: "assets/images/1.jpg",
         judul: "hei",
         deskripsi: "murah",
         harga: 333,
         jumlah: 0),
     CartItem(
-        gambar: "assets/images/haya.jpg",
+        gambar: "assets/images/1.jpg",
         judul: "bro",
         deskripsi: "murah",
         harga: 50,
